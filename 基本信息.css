@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 16px;
+}
+.title{ 
+    color: white;
+    background-color: red;
+    text-align: center;
+    width: 30%;
+    margin: 20px 0;
+}
+.nav{
+    background-color: white;
+    width: 30%;
+    border-top: 1px solid white;
+    border-bottom:1px solid white;
+    }
+    
+    .nav ul {
+       width: 100%;
+       color: black;
+       list-style-type: none; /* 移除列表项前的标记 */  
+       padding: 0; /* 移除默认的填充 */  
+       margin: 0; /* 移除默认的边距 */ 
+    }
+    .nav li {  
+        display: block; /* 使列表项垂直堆叠 */  
+        margin-bottom: 20px; /* 在列表项之间添加一些垂直间距 */  
+        text-align: center;
+    }
+    .nav a {  
+        text-decoration: none; /* 移除链接的下划线（如果需要的话） */  
+        color: #000; /* 设置链接颜色（根据需要调整） */  
+        border-bottom: 1px dashed #ccc; /* 在链接下方添加1px宽的虚线，颜色为#ccc */  
+    padding-bottom: 20px; /* 可选：为虚线和链接文本之间添加一些空间 */  
+    display: block; /* 如果需要链接占据整行（垂直导航），则添加此行 */  
+    }
+.nav a:hover,  
+.nav a:focus {  
+    color: #ff0000; /* 悬停和聚焦时的颜色 */  
+    border-bottom-color: #ff0000; /* 如果虚线也需要改变颜色 */  
+}
